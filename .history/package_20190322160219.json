@@ -7,15 +7,13 @@
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
   },
-  "main": "src/electron-main.js",
+  "main": "electron-main.js",
   "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "electron": "electron .",
-    "electron-dev": "set ELECTRON_START_URL=http://localhost:3000 && electron ."
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,8 +25,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "electron": "^4.1.1",
-    "electron-packager": "^13.1.1",
-    "electron-winstaller": "^3.0.4"
+    "electron": "^4.1.1"
   }
 }
